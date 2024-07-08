@@ -19,7 +19,7 @@ Size represents the threshold length for the CNN input code, and dim represents 
 | **VulMCI_size=400_dim=128** |          | **1.459** | **56.587** | **55.133** | **75.521** | **43.413** | **93.361** |
 | AMPLE                       | SOTA     | -         | -          | 48.48      | 51.06      | 46.15      | 92.71      |
 
-实验得出在dim=128时兼顾了时间开销和检测效果，并且Reveal函数长度主要分布在200行以内，加上拼接行基本不会超过400行，我们同时通过实验阈值200、300、400、500、1000，得出最佳size=400。
+The experiment found that with dim=128, a balance was achieved between time cost and detection effectiveness. Additionally, the length of the Reveal function mainly falls within 200 lines, and with concatenated lines, it generally does not exceed 400 lines. Through experiments with thresholds of 200, 300, 400, 500, and 1000, we determined that the optimal size is 400.
 
 [![pkfpLMF.png](./supplementary materials.assets/pkfpLMF.png)](https://imgse.com/i/pkfpLMF)
 
