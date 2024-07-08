@@ -37,7 +37,7 @@ Second, the processing method using only CMG nodes (labeled "CMG Method") result
 
 It should be noted that in the Euclidean distance graph of pixel row oversampling, there are a few points with a distance of 0. This is because some unimportant code rows have centrality metrics of None. In the algorithm logic of pixel row oversampling, this value is retained, resulting in zero vectors when multiplied by the row vectors.
 
-![pkf9pPx.png](./supplementary materials.assets/pkf9pPx.png)
+<a href="https://imgse.com/i/pkf9pPx"><img src="https://s21.ax1x.com/2024/07/08/pkf9pPx.png" alt="pkf9pPx.png" border="0"></a>
 
 
 
